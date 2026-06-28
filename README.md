@@ -1,4 +1,4 @@
-# Wiki Lore Parser & RAG Compiler
+# RAG text preprocessor
 
 This tool was made to process giant xml files of Wiki dumps. I created it because I needed a way to turn an xml into a compact .txt file for use in RAG in my local LLM instance. 
 It's intended to be used with [wikiteam dumps](https://archive.org/search?query=subject%3A%22wikiteam%22 "there are a lot of wiki dumps you can borrow on internet archive!"). I can't tell if it would work well with other xmls. 
@@ -31,6 +31,10 @@ It consists of three scripts.
 7. (optional) You can edit `config.py` to list folders contents of which you wish not to see in the final file inside `FOLDERS_TO_EXCLUDE`
 8. Run **script3**
 
-DONE! Now in `FINAL_TXT` you will have a single file you can use for RAG. You can safely delete any files you don't intend to use again. 
+DONE! Now in `FINAL_TXT` you will have a single file you can use for RAG. You can safely delete any files you don't intend to use again. Typically this preprocessing turns around a GB of xml for a big fandom wiki into a 5-10mb text file. 
 
 > note: this was vibecoded in like 15 mins with very little edits of my own, so it may have unoptimized logic and stuff. you are free and encouraged to alter the scripts however you want to match your needs.
+
+## Why use a RAG? 
+
+> me personally i was running a really small qwen and it basically had no knowledge of my favorite fandoms. as searching the web would be too expensive for me, i just gave it a RAG feature and stuck the .txt into its database. btw you really should check if your ollama is running the gpu, because it takes an eternity by cpu even if your file is just a couple mb. anyways now im hapi cuz i can ramble about my fav fandoms with the robot bc all the real friends are already exhausted listening to me. Yes hyperfixation's that bad /j 
