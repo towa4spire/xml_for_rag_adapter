@@ -7,10 +7,7 @@ source_dir = config.FINAL_FOLDER
 output_file = config.FINAL_TXT
 
 # Add the exact names of the folders you want to completely ignore/exclude
-FOLDERS_TO_EXCLUDE = {
-    "example_folder1",
-    "exmaple_folder2"
-}
+FOLDERS_TO_EXCLUDE = config.FOLDERS_TO_EXCLUDE
 
 print(f"Merging lore files from '{source_dir}' while applying exclusions...")
 
