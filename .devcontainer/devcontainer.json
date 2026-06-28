@@ -1,11 +1,8 @@
 {
-  "name": "Wiki Lore Processor Environment",
-  "image": "://microsoft.com",
+  "name": "Wiki Lore Processor",
+  "image": "python:3.11-slim",
   "customizations": {
     "vscode": {
-      "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
-      },
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance"
