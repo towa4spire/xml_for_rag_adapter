@@ -22,11 +22,11 @@ It consists of three scripts.
    - have `XML_FILE` variable matching your file's name
    - have `NS` variable matching your dump's namespace (look at the very first parent tag or idk)
    - if you **don't** use **`script2`**, set your `FINAL_FOLDER` same as `SORTED_FOLDER`. if you do, set is the same as `ORGANIZED_FOLDER`
-4. Run script1 (e.g. ```bash python script1_xml_clean_sort.py ``` or just run it through any debugger).
+4. Run **script1** (e.g. ```bash python script1_xml_clean_sort.py ``` or just run it through any debugger).
 5. Now you can look at the folders inside `SORTED_FOLDER` and delete categories you don't want
-6. (optional) Run script2. After that you can delete the consolidated files you don't want inside `ORGANIZED_FOLDER`
+6. (optional) Run **script2**. After that you can delete the consolidated files you don't want inside `ORGANIZED_FOLDER`
 7. (optional) You can edit `config.py` to list folders contents of which you wish not to see in the final file inside `FOLDERS_TO_EXCLUDE`
-8. Run script3
+8. Run **script3**
 
 DONE! Now in `FINAL_TXT` you will have a single file you can use for RAG.
 
