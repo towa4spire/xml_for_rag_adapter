@@ -28,6 +28,6 @@ It consists of three scripts.
 7. (optional) You can edit `config.py` to list folders contents of which you wish not to see in the final file inside `FOLDERS_TO_EXCLUDE`
 8. Run **script3**
 
-DONE! Now in `FINAL_TXT` you will have a single file you can use for RAG.
+DONE! Now in `FINAL_TXT` you will have a single file you can use for RAG. You can safely delete any files you don't intend to use again. 
 
 > note: this was vibecoded in like 15 mins with very little edits of my own, so it may have unoptimized logic and stuff. you are free and encouraged to alter the scripts however you want to match your needs.
