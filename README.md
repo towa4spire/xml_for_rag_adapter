@@ -16,7 +16,7 @@ It consists of three scripts.
 **Script 3** takes all folders and .txt files from `FINAL_FOLDER` and combines them into a single `FINAL_TXT` file. *This is what you can put into your LLM for RAG*
 
 ## How to use
->you can try to use it in codespace without downloading the script to your pc, however, due to wikidump xmls typically being huge and the download speed of codespaces being rather slow, it will likely be easier for you to download it on your pc.
+>you can try to use it in codespace without downloading the script to your pc, however, due to wikidump xmls typically being huge and the download speed of codespaces being rather slow, it will likely be easier for you to download it onto your pc.
 >if you do decide to use codespace (green `<> Code` button near the repo), just skip step 1 and drag-and-drop your file into the codespace or use curl to download the .xml
 
 1. Download `config.py`, `script1`, `script3` and put them in the same folder. script2 is optional.
